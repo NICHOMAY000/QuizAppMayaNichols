@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="question1">1. What city is known as the world of fashion?</string>
+    <string name="question2">2. What is the real name of French fashion designer Coco Chanel?</string>
+    <string name="question3">3. Which is the place of birth of American woman who is a fashion designer, Liz Claiborne?</string>
+    <string name="question4">4. Who is the CEO of Louis Vuitton?</string>
+    <string name="question5">5. The average American owns ____ pairs of blue jeans.</string>
+    <string name="question6">6. Which of these are hats?</string>
+</resources>

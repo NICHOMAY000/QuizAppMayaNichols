@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Basketball Quiz"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:fontFamily="casual"
+            android:layout_marginBottom="16dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="1. What year was basketball first originated?"/>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/correctAnswerQ1"
+                android:text="1891"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/WrongAnswerQ1"
+                android:text="1890"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/wrongAnswerQ1"
+                android:text="1900"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+
+            android:text="2. Where was the first game of basketball played at?"/>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg1"
+            android:layout_marginBottom="16dp">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/wrongAnswerQ2"
+                android:text="Sunnyside College"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/WrongAnswerQ2"
+                android:text="StandfordUniversity"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/correctAnswerQ2"
+                android:text="Springfield College"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="3. Who invented the game of basketball?" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Answer"
+            android:inputType="text"
+            android:id="@+id/question3Ans"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="4. What were the first basketball hoops and backboards made out of?"/>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/WrongAnswerQ4"
+                android:text="Hoop: Garbage bin; Backboard: String"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/correctAnswerQ4"
+                android:text="Hoop: Peach basket; Backboard: Wire"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/wrongAnswerQ4"
+                android:text="Hoop: Peach basket; Backboard: Triplex wire"/>
+        </RadioGroup>
+        <TextView
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:text="5. True or False. Was basketball ever considered as an Olympic sport?"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Answer"
+            android:inputType="text"
+            android:id="@+id/question5Ans"
+            android:layout_marginBottom="16dp"/>
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="6. Who was on the Chicago Bulls team during 1991 to 1992?"
+             android:textStyle="bold"/>
+
+            <CheckBox
+                android:id="@+id/checkbox1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="John Paxson"
+                android:textAppearance="?android:textAppearanceMedium" />
+            <CheckBox
+                android:id="@+id/checkbox2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Horace Grant"
+                android:textAppearance="?android:textAppearanceMedium" />
+            <CheckBox
+                android:id="@+id/checkbox3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Scottie Pippen"
+                android:textAppearance="?android:textAppearanceMedium" />
+            <CheckBox
+                android:id="@+id/checkbox4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Neil Armstrong"
+                android:textAppearance="?android:textAppearanceMedium" />
+            <CheckBox
+                android:id="@+id/checkbox5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chuck Nevitt"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:layout_marginBottom="16dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:textStyle="bold"
+                android:fontFamily="casual"
+                android:id="@+id/submit_button"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
